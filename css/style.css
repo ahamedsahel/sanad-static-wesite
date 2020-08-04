@@ -7,6 +7,7 @@
 
 html,
 body {
+    
     margin: 0;
     font-size: 100%;
     background: #e6e6e6;
@@ -70,7 +71,7 @@ h6 {
     letter-spacing: 1px;
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
-    font-size: 81px;
+    font-size: 70px;
     color: white;
 }
 
@@ -508,7 +509,8 @@ a.read-more {
 /*-- //heading --*/
 
 #about {
-    background: #fff;
+    
+background: radial-gradient(circle, rgba(173,225,236,0.30902783476671913) 73%, rgba(28,99,113,1) 92%);
 }
 
 .content-left-bottom h4 {
@@ -782,6 +784,7 @@ span.title {
 .team-grids img {
     width: 82%;
     float: left;
+    height: 267px;
 }
 
 /* team responsive */
@@ -887,7 +890,7 @@ span.title {
 }
 
 .stats {
-    background: url(../images/website.jpg) no-repeat 0px 0px;
+    background: radial-gradient(circle, rgba(0,76,9,0.37625472552302175) 3%, rgba(25,112,130,1) 45%);
     background-size: cover;
     position: relative;
 }
@@ -1077,7 +1080,7 @@ h6.b-w3ltxt span {
     width: 25px;
 }
 .contact_left_grid button.btn {
-    background: #03f4eb;
+    background: #243a39;;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
@@ -1089,9 +1092,10 @@ h6.b-w3ltxt span {
     -moz-border-radius: 0px;
     -ms-border-radius: 0px;
     -o-border-radius: 0px;
+    box-shadow: grey;
 }
 .contact{
-    background: #f6f6f6;
+    background: rgb(193 187 187);
 }
 /*-- //contact --*/
 /* footer */
